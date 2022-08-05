@@ -26,7 +26,6 @@ export default () => {
         <View style={{ flex: 1, backgroundColor: '#000' }}>
             <StatusBar hidden />
 
-  
             <FlatList 
               data={data}
               keyExtractor={(_,index) => index.toString()}
